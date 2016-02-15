@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="D:/jar/lingpipe-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/JUN/coreNLP/stanford-corenlp-full-2015-04-20/stanford-corenlp-full-2015-04-20/ejml-0.23.jar"/>
+	<classpathentry kind="lib" path="D:/JUN/coreNLP/stanford-corenlp-full-2015-04-20/stanford-corenlp-full-2015-04-20/javax.json.jar"/>
+	<classpathentry kind="lib" path="D:/JUN/coreNLP/stanford-corenlp-full-2015-04-20/stanford-corenlp-full-2015-04-20/joda-time.jar"/>
+	<classpathentry kind="lib" path="D:/JUN/coreNLP/stanford-corenlp-full-2015-04-20/stanford-corenlp-full-2015-04-20/jollyday.jar"/>
+	<classpathentry kind="lib" path="D:/JUN/coreNLP/stanford-corenlp-full-2015-04-20/stanford-corenlp-full-2015-04-20/protobuf.jar"/>
+	<classpathentry kind="lib" path="D:/JUN/coreNLP/stanford-corenlp-full-2015-04-20/stanford-corenlp-full-2015-04-20/stanford-corenlp-3.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/JUN/coreNLP/stanford-corenlp-full-2015-04-20/stanford-corenlp-full-2015-04-20/stanford-corenlp-3.5.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/JUN/coreNLP/stanford-corenlp-full-2015-04-20/stanford-corenlp-full-2015-04-20/stanford-corenlp-3.5.2-models.jar"/>
+	<classpathentry kind="lib" path="D:/JUN/coreNLP/stanford-corenlp-full-2015-04-20/stanford-corenlp-full-2015-04-20/stanford-corenlp-3.5.2-sources.jar"/>
+	<classpathentry kind="lib" path="D:/JUN/coreNLP/stanford-corenlp-full-2015-04-20/stanford-corenlp-full-2015-04-20/xom.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
