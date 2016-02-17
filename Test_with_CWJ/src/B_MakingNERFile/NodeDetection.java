@@ -1,4 +1,4 @@
-package NodeDetector;
+package B_MakingNERFile;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -84,8 +84,6 @@ public class NodeDetection {
 		System.out.println("EntityOne Dictionary is sucessfully loaded");
 
 		
-		
-		
 		System.out.println(
 				"--------------------------------------------------------------------------------------------------------------------------------");
 		System.out.println("Making annotation files in progress........................ ");
@@ -160,6 +158,12 @@ public class NodeDetection {
 				out.write("SplitSentence:" + val);
 				out.newLine();
 
+				/*
+				 * 
+				 * Put in the code
+				 * 
+				 */
+				
 				Ptemp_chunk_result.clear();
 				Pchunk_result.clear();
 				Ptemp_chunk_result = Pchunk(P_dictionaryChunkerTF, val.toLowerCase(), "BROMFED-DM", "9");
@@ -168,6 +172,12 @@ public class NodeDetection {
 					out.write("Phenotype:" + p);
 					out.newLine();
 				}
+				
+				/*
+				 * 
+				 * **********************************************
+				 * 
+				 */
 
 				Tchunk_result.clear();
 				Tchunk_result = Tchunk(T_dictionaryChunkerTF, val.toLowerCase().trim(), "BROMFED-DM", "9");
