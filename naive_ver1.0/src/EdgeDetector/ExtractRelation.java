@@ -621,7 +621,7 @@ public class ExtractRelation {
 				LinkedHashSet<String> annotatedPhenotype = new LinkedHashSet<String>();
 				LinkedHashSet<String> annotatedTrigger = new LinkedHashSet<String>();
 				LinkedHashSet<String> annotatedEntityOne = new LinkedHashSet<String>();
-				String checkLine = "ID_";
+				String checkLine = "ID_";//
 
 				while ((line = br.readLine()) != null) {
 
