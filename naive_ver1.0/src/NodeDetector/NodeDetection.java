@@ -29,7 +29,7 @@ public class NodeDetection {
 
 		Metamap mm = new Metamap();
 		MetaMapApi api = new MetaMapApiImpl();
-		api.setOptions("-k <aapp,acty,aggp,amas,amph,anim,anst,antb,arch,bacs,bact,bdsu,bdsy,bhvr,bird,blor,bmod,bodm,bsoj,carb,celc,celf,cell,chem,chvf,chvs,clas,clnd,cnce,crbs,diap,dora,drdd,edac,eehu,eico,elii,emst,enty,enzy,euka,evnt,famg,ffas,fish,fngs,food,ftcn,genf,geoa,gngm,gora,grpa,grup,hcpp,hcro,hlca,horm,humn,idcn,imft,inbe,inch,inpr,irda,lang,lbpr,lipd,mamm,mbrt,mcha,medd,mnob,moft,mosq,nnon,npop,nsba,nusq,ocac,ocdi,opco,orch,orga,orgf,orgm,orgt,ortf,phob,phpr,phsu,plnt,podg,popg,prog,pros,qlco,qnco,rcpt,rept,resa,resd,rnlw,sbst,shro,socb,spco,strd,tmco,topp,virs,vita,vtbt>");
+		api.setOptions("-yk <aapp,acty,aggp,amas,amph,anim,anst,antb,arch,bacs,bact,bdsu,bdsy,bhvr,bird,blor,bmod,bodm,bsoj,carb,celc,celf,cell,chem,chvf,chvs,clas,clnd,cnce,crbs,diap,dora,drdd,edac,eehu,eico,elii,emst,enty,enzy,euka,evnt,famg,ffas,fish,fngs,food,ftcn,genf,geoa,gngm,gora,grpa,grup,hcpp,hcro,hlca,horm,humn,idcn,imft,inbe,inch,inpr,irda,lang,lbpr,lipd,mamm,mbrt,mcha,medd,mnob,moft,mosq,nnon,npop,nsba,nusq,ocac,ocdi,opco,orch,orga,orgf,orgm,orgt,ortf,phob,phpr,phsu,plnt,podg,popg,prog,pros,qlco,qnco,rcpt,rept,resa,resd,rnlw,sbst,shro,socb,spco,strd,tmco,topp,virs,vita,vtbt>");
 
 		
 		/*
@@ -133,7 +133,7 @@ public class NodeDetection {
 			String EntityOneReference = makeReference.toString();
 			String EntityOneID = EntityOneRef_ID.substring(makeReference.length());
 					
-			String AnnFileFolder = "D:/JUN/MCMT/REmodule/annotated/";
+			String AnnFileFolder = "D:/JUN/MCMT/End_of_project/annotated/";
 			
 			LinkedHashSet<String> value = new LinkedHashSet<String>();
 			value.clear();
@@ -160,13 +160,13 @@ public class NodeDetection {
 			out.newLine();
 			
 
-			// each split sentence in an line.
+			
 			for (String val : value) {
 				out.write("SplitSentence:" + val);
 				out.newLine();
 
 				/*
-				 * 
+				 *
 				 * Put in the code
 				 * 
 				 */

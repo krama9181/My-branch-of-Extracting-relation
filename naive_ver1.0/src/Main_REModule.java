@@ -19,19 +19,17 @@ public class Main_REModule {
 	 * File Path Declaration ( You should change the path )
 	 * 
 	 */
-	static String path = "D:/Desktop/MCMT/";
+	static String path = "D:/JUN/MCMT/End_of_project/";
 	
-	static String InputTextFile = path + "taggedInput_random200.txt"; // input text  
-//	static String InputTextFile = path + "test.txt"; // input text  
+	static String InputTextFile = path + "tagged_input/taggedTotalData_forTest.txt"; // input text  
 	static String AnnFileFolder_Function = path + "annotated/about_Function/"; // Folder path whose annotation files will be stored.
 	static String AnnFileFolder_Moa = path + "annotated/about_Moa/";
 	static String AnnFileFolder_Toxicity = path + "annotated/about_Toxicity/";
-	static String UMLSDictionaryPath = path + "UMLS_DICTIONARY_FOR_20_SEM.txt"; // UMLS dictionary path
-	static String TriggerDictionaryPath = path + "Integrated_Triggers.txt"; // Trigger dictionary path
-	static String RelationResultOutputPath = path + "output_DCDB.tsv"; // Final output path
+	static String UMLSDictionaryPath = path + "dictionary/UMLS_DICTIONARY_FOR_20_SEM.txt"; // UMLS dictionary path
+	static String TriggerDictionaryPath = path + "dictionary/Integrated_Triggers.txt"; // Trigger dictionary path
+	static String RelationResultOutputPath = path + "Output/output_totalData_addoption.tsv"; // Final output path
 	
 	public static void main(String[] args) throws Exception {
-			
 		createFolder();		
 		SentenceSplitter splitter = new SentenceSplitter();
 		NodeDetection node_detector = new NodeDetection();

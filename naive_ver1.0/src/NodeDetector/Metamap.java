@@ -51,7 +51,7 @@ public class Metamap {
 						String UMLS_ID = mapEv.getConceptId();
 						String UMLS_Symantic_type = mapEv.getSemanticTypes().get(0);
 						String tmp = phenotype_name + "\t" + start + "\t" + end + "\t" + UMLS_ID + "\t" + UMLS_Symantic_type;
-						System.out.println(tmp);
+						//System.out.println(tmp);
 						result.add(tmp);
 					}
 				}

@@ -2,19 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
-	<classpathentry kind="lib" path="D:/Desktop/Relation_ExtratTool_ver_1.0/jar/ejml-0.23.jar"/>
-	<classpathentry kind="lib" path="D:/Desktop/Relation_ExtratTool_ver_1.0/jar/javax.json.jar"/>
-	<classpathentry kind="lib" path="D:/Desktop/Relation_ExtratTool_ver_1.0/jar/joda-time.jar"/>
-	<classpathentry kind="lib" path="D:/Desktop/Relation_ExtratTool_ver_1.0/jar/jollyday.jar"/>
-	<classpathentry kind="lib" path="D:/Desktop/Relation_ExtratTool_ver_1.0/jar/lingpipe-4.1.0.jar"/>
-	<classpathentry kind="lib" path="D:/Desktop/Relation_ExtratTool_ver_1.0/jar/protobuf.jar"/>
-	<classpathentry kind="lib" path="D:/Desktop/Relation_ExtratTool_ver_1.0/jar/stanford-corenlp-3.5.2.jar"/>
-	<classpathentry kind="lib" path="D:/Desktop/Relation_ExtratTool_ver_1.0/jar/stanford-corenlp-3.5.2-javadoc.jar"/>
-	<classpathentry kind="lib" path="D:/Desktop/Relation_ExtratTool_ver_1.0/jar/stanford-corenlp-3.5.2-models.jar"/>
-	<classpathentry kind="lib" path="D:/Desktop/Relation_ExtratTool_ver_1.0/jar/stanford-corenlp-3.5.2-sources.jar"/>
-	<classpathentry kind="lib" path="D:/Desktop/Relation_ExtratTool_ver_1.0/jar/xom.jar"/>
-	<classpathentry kind="lib" path="D:/Desktop/public_mm/src/javaapi/dist/MetaMapApi.jar"/>
-	<classpathentry kind="lib" path="D:/Desktop/public_mm/src/javaapi/dist/prologbeans.jar"/>
 	<classpathentry kind="lib" path="C:/Users/admin/Desktop/public_mm/src/javaapi/dist/MetaMapApi.jar"/>
 	<classpathentry kind="lib" path="C:/Users/admin/Desktop/public_mm/src/javaapi/dist/prologbeans.jar"/>
 	<classpathentry kind="lib" path="D:/JUN/coreNLP/stanford-corenlp-full-2015-04-20/stanford-corenlp-full-2015-04-20/ejml-0.23.jar"/>
@@ -27,5 +14,6 @@
 	<classpathentry kind="lib" path="D:/JUN/coreNLP/stanford-corenlp-full-2015-04-20/stanford-corenlp-full-2015-04-20/stanford-corenlp-3.5.2-models.jar"/>
 	<classpathentry kind="lib" path="D:/JUN/coreNLP/stanford-corenlp-full-2015-04-20/stanford-corenlp-full-2015-04-20/stanford-corenlp-3.5.2-sources.jar"/>
 	<classpathentry kind="lib" path="D:/JUN/coreNLP/stanford-corenlp-full-2015-04-20/stanford-corenlp-full-2015-04-20/xom.jar"/>
+	<classpathentry kind="lib" path="D:/jar/lingpipe-4.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

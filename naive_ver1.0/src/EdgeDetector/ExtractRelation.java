@@ -81,14 +81,13 @@ public class ExtractRelation {
 				BufferedReader br = new BufferedReader(new FileReader(file));
 				String line = null;
 
-				int lineCounter = 0;
 				LinkedHashSet<String> annotatedPhenotype = new LinkedHashSet<String>();
 				LinkedHashSet<String> annotatedTrigger = new LinkedHashSet<String>();
 				LinkedHashSet<String> annotatedEntityOne = new LinkedHashSet<String>();
+				String checkLine = "ID_";
 				
 				while ((line = br.readLine()) != null) {
-					++lineCounter;
-					if (lineCounter == 1) {
+					if (checkLine.equals(line.substring(0,3))) {
 						String temp = line.substring(0 + "ID_OriginalText_Reference:".length(), line.length());
 						System.out.println(temp);
 						String[] temp_split = temp.split("\t");
@@ -325,7 +324,6 @@ public class ExtractRelation {
 							out.newLine();
 						}
 						
-						lineCounter = 0;
 						Result.clear();
 						annotatedPhenotype.clear();
 						annotatedTrigger.clear();
@@ -350,15 +348,15 @@ public class ExtractRelation {
 				String fileName = file.getName().replace(".txt", "");
 				BufferedReader br = new BufferedReader(new FileReader(file));
 				String line = null;
+				String checkLine = "ID_";
 
-				int lineCounter = 0;
 				LinkedHashSet<String> annotatedPhenotype = new LinkedHashSet<String>();
 				LinkedHashSet<String> annotatedTrigger = new LinkedHashSet<String>();
 				LinkedHashSet<String> annotatedEntityOne = new LinkedHashSet<String>();
 				
 				while ((line = br.readLine()) != null) {
-					++lineCounter;
-					if (lineCounter == 1) {
+					if (checkLine.equals(line.substring(0,3))) {
+
 						String temp = line.substring(0 + "ID_OriginalText_Reference:".length(), line.length());
 						System.out.println(temp);
 						String[] temp_split = temp.split("\t");
@@ -620,14 +618,14 @@ public class ExtractRelation {
 				BufferedReader br = new BufferedReader(new FileReader(file));
 				String line = null;
 
-				int lineCounter = 0;
 				LinkedHashSet<String> annotatedPhenotype = new LinkedHashSet<String>();
 				LinkedHashSet<String> annotatedTrigger = new LinkedHashSet<String>();
 				LinkedHashSet<String> annotatedEntityOne = new LinkedHashSet<String>();
+				String checkLine = "ID_";
 
 				while ((line = br.readLine()) != null) {
-					++lineCounter;
-					if (lineCounter == 1) {
+
+					if (checkLine.equals(line.substring(0,3))) {
 						String temp = line.substring(0 + "ID_OriginalText_Reference:".length(), line.length());
 						System.out.println(temp);
 						String[] temp_split = temp.split("\t");
@@ -682,7 +680,7 @@ public class ExtractRelation {
 											int p_begin_minus_e_begin = p_begin - e_begin;
 											
 											if (p_begin_minus_e_begin > 0) {
-												Result.add(entiOne[1] + "\t" + entiOne[2] + "\t"+ "precaution" + "\t" + "NA" + "\t" + "NA"
+												Result.add(entiOne[1] + "\t" + entiOne[2] + "\t"+ "cause" + "\t" + "NA" + "\t" + "NA"
 														+ "\t" + "NA" + "\t" + pheno[0] + "\t" + pheno[3] + "\t"
 														+ pheno[4] + "\t" + pheno[1] + "\t" + pheno[2] + "\t" + sentence);
 											}
